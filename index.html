@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Birthday Surprise ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="hearts"></canvas>
+
+<div class="floating-images">
+    <img src="images/1.jpg" class="img1">
+    <img src="images/2.jpeg" class="img2">
+    <img src="images/3.jpg" class="img3">
+    <img src="images/4.jpeg" class="img4">
+    <img src="images/5.jpeg" class="img5">
+    <img src="images/6.jpg" class="img6">
+    <img src="images/7.jpg" class="img7">
+    <img src="images/8.jpg" class="img8">
+</div>
+
+<div class="card">
+    <h1 id="title" class="hidden">Hey, Is it your birthday today??</h1>
+    <p id="msg1" class="hidden subtitle">Something magical is about to happen ✨</p>
+    <p id="msg2" class="hidden small-text">I just tried something to make you smile 💕</p>
+    <p id="msg3" class="hidden small-text">Because you deserve this, the most beautiful Lady 💖</p>
+
+    <button id="startBtn" class="hidden" onclick="startSurprise()">Let's Begin? ❤️</button>
+</div>
+
+<audio id="bg-music" loop>
+    <source src="music/birthday.mp3" type="audio/mp3">
+</audio>
+
+<div id="playOverlay">
+    <button onclick="playMusic()">Tap to Start ❤️</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
